@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "generated_by": "paper_output/code/modeling/run_modeling.py",
+  "generated_at": "2026-09-13T01:51:01",
+  "status": "computed",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "status": "computed",
+      "evidence_status": "computed",
+      "result_summary": "问题一求得单日最优购电与储能调度方案，并满足储能首末电量一致。",
+      "details": {
+        "total_purchase_kwh": 59482.69899835391,
+        "total_cost_yuan": 35126.948589289634,
+        "total_charge_kwh": 20740.66613168725,
+        "total_discharge_kwh": 16799.939566666668,
+        "terminal_soc_gap_kwh": 0.0,
+        "curtailment_kwh": 0.0
+      },
+      "execution_provenance": {
+        "source_code_path": "paper_output/code/modeling/run_modeling.py",
+        "source_code_sha256": "dc9dd38bcb4483614f51f2162dc3d95d7f511583f3f4fec97f3f3244eb32fc1a",
+        "run_command": "python paper_output/code/modeling/run_modeling.py --scenario-count 200 --block-length 6 --seed 20250101",
+        "run_exit_code": 0,
+        "question_id": "Q1",
+        "output_artifacts": [
+          "paper_output/results/result1.xlsx",
+          "paper_output/tables/table_q1_purchase.csv",
+          "paper_output/figures/fig_q1_1.png",
+          "paper_output/figures/fig_q1_2.png",
+          "paper_output/figures/fig_q1_3.png"
+        ]
+      }
+    },
+    {
+      "question_id": "Q2",
+      "status": "computed",
+      "evidence_status": "computed",
+      "result_summary": "问题二使用严格历史信息构造0:00计划，并以实际负载和光伏结算紧急购电；结果同时包含固定峰谷规则对照。",
+      "details": {
+        "output_days": 334,
+        "total_purchase_kwh": 20457823.01506208,
+        "total_emergency_kwh": 1719892.2161591565,
+        "total_cost_yuan": 19432053.010217562,
+        "planned_cost_yuan": 12231579.008410627,
+        "rule_total_cost_yuan": 21583347.12245431,
+        "rule_total_emergency_kwh": 1225288.7660041666,
+        "saving_vs_rule_yuan": 2151294.1122367494,
+        "saving_vs_rule_percent": 9.967379480259774,
+        "minimum_soc_kwh": 1200.0,
+        "maximum_soc_kwh": 10800.0
+      },
+      "execution_provenance": {
+        "source_code_path": "paper_output/code/modeling/run_modeling.py",
+        "source_code_sha256": "dc9dd38bcb4483614f51f2162dc3d95d7f511583f3f4fec97f3f3244eb32fc1a",
+        "run_command": "python paper_output/code/modeling/run_modeling.py --scenario-count 200 --block-length 6 --seed 20250101",
+        "run_exit_code": 0,
+        "question_id": "Q2",
+        "output_artifacts": [
+          "paper_output/results/result2.xlsx",
+          "paper_output/tables/table_q2_daily_summary.csv",
+          "paper_output/tables/table_q2_rule_comparison.csv",
+          "paper_output/figures/fig_q2_1.png",
+          "paper_output/figures/fig_q2_2.png",
+          "paper_output/figures/fig_q2_3.png",
+          "paper_output/figures/fig_q2_rule_compare.png"
+        ]
+      }
+    },
+    {
+      "question_id": "Q3",
+      "status": "computed",
+      "evidence_status": "computed",
+      "result_summary": "问题三完成四预报时刻滚动优化，并给出预报时点消融结果。",
+      "details": {
+        "output_days": 334,
+        "total_cost_yuan": 19376187.088645756,
+        "total_adjustment_related_cost_yuan": 2275221.1061831624,
+        "total_emergency_kwh": 1617253.4945396604
+      },
+      "execution_provenance": {
+        "source_code_path": "paper_output/code/modeling/run_modeling.py",
+        "source_code_sha256": "dc9dd38bcb4483614f51f2162dc3d95d7f511583f3f4fec97f3f3244eb32fc1a",
+        "run_command": "python paper_output/code/modeling/run_modeling.py --scenario-count 200 --block-length 6 --seed 20250101",
+        "run_exit_code": 0,
+        "question_id": "Q3",
+        "output_artifacts": [
+          "paper_output/results/result3.xlsx",
+          "paper_output/tables/table_q3_forecast_ablation.csv",
+          "paper_output/figures/fig_q3_1.png",
+          "paper_output/figures/fig_q3_2.png",
+          "paper_output/figures/fig_q3_3.png",
+          "paper_output/figures/fig_q3_saving_waterfall.png"
+        ]
+      }
+    },
+    {
+      "question_id": "Q4",
+      "status": "computed",
+      "evidence_status": "computed",
+      "result_summary": "问题四完成附件4实际波动电价下的问题2和问题3重算。",
+      "details": {
+        "q4_2_total_cost_yuan": 20162596.67524488,
+        "q4_3_total_cost_yuan": 20070799.54899107,
+        "q4_3_saving_vs_q4_2_yuan": 91797.12625380978,
+        "q4_3_minus_q4_2_yuan": -91797.12625380978,
+        "risk_mean_cost_yuan": 16128017.953095341,
+        "risk_var_95_yuan": 16289949.718623593,
+        "risk_cvar_95_yuan": 16340343.22214834
+      },
+      "execution_provenance": {
+        "source_code_path": "paper_output/code/modeling/run_modeling.py",
+        "source_code_sha256": "dc9dd38bcb4483614f51f2162dc3d95d7f511583f3f4fec97f3f3244eb32fc1a",
+        "run_command": "python paper_output/code/modeling/run_modeling.py --scenario-count 200 --block-length 6 --seed 20250101",
+        "run_exit_code": 0,
+        "question_id": "Q4",
+        "output_artifacts": [
+          "paper_output/results/result4-2.xlsx",
+          "paper_output/results/result4-3.xlsx",
+          "paper_output/tables/table_q4_cost_summary.csv",
+          "paper_output/figures/fig_q4_1.png",
+          "paper_output/figures/fig_q4_2.png",
+          "paper_output/figures/fig_q4_3.png",
+          "paper_output/figures/fig_q4_4.png"
+        ]
+      }
+    }
+  ]
+}

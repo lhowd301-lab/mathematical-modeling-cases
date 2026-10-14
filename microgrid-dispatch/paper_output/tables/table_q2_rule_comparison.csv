@@ -1,0 +1,3 @@
+strategy,total_cost_yuan,total_emergency_kwh
+forecast_linear_programming,19432053.010217562,1719892.2161591565
+fixed_peak_valley_rule,21583347.12245431,1225288.7660041666

@@ -1,0 +1,26 @@
+[
+  {
+    "file": "annual_10min.csv",
+    "bytes": 7387934,
+    "sha256": "4c1e7c964850e6a41bf89f7d3b7faaf7e1bed4fda044363e9a8957675e86f7ee",
+    "source": "赛题附件经原项目预处理的电力负荷、光伏、电价与预测序列"
+  },
+  {
+    "file": "attachment1_10min.csv",
+    "bytes": 18190,
+    "sha256": "de4b0466e001dcff837f65f508b855165d46cfabd7cffa61929c765298331b1c",
+    "source": "赛题附件经原项目预处理的电力负荷、光伏、电价与预测序列"
+  },
+  {
+    "file": "pv_forecast_10min_by_origin.csv",
+    "bytes": 25326232,
+    "sha256": "8c24dca12b1d8c60a5b2795b036ca033bfd49370b478da560198b034ffe49ecc",
+    "source": "赛题附件经原项目预处理的电力负荷、光伏、电价与预测序列"
+  },
+  {
+    "file": "pv_forecast_10min_asof.csv",
+    "bytes": 7594939,
+    "sha256": "327326d47ccf7bdad8609b24b45c6722e3ba6e6000495918cceb68af3dad7f3e",
+    "source": "赛题附件经原项目预处理的电力负荷、光伏、电价与预测序列"
+  }
+]

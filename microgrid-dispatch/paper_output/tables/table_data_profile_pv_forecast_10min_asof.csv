@@ -1,0 +1,15 @@
+field,sample_rows,non_null_count,missing_count,inferred_type,mean,std,min,max
+date,500,500,0,text,,,,
+interval_id,500,500,0,numeric,67.332,41.412435,1.0,144.0
+slot_start,500,500,0,text,,,,
+slot_end,500,500,0,text,,,,
+target_hour_index,500,500,0,numeric,10.806,6.906255,0.0,24.0
+forecast_source_date,500,495,5,text,,,,
+forecast_source_origin_hour,500,495,5,numeric,8.181818,6.707095,0.0,18.0
+forecast_source_origin_time,500,495,5,text,,,,
+forecast_source_datetime,500,495,5,text,,,,
+forecast_horizon_hour,500,495,5,numeric,3.460606,1.696688,1.0,6.0
+source_column,500,495,5,text,,,,
+pv_forecast_kw,500,500,0,numeric,1411.167388,2069.61513,0.0,6339.1125
+pv_forecast_kwh,500,500,0,numeric,235.194565,344.935855,0.0,1056.51875
+forecast_status,500,500,0,text,,,,

@@ -1,0 +1,7 @@
+field,sample_rows,non_null_count,missing_count,inferred_type,mean,std,min,max
+month,12,12,0,text,,,,
+mean_load_kw,12,12,0,numeric,4623.978254,300.671581,4337.671347,5337.258656
+mean_pv_actual_kw,12,12,0,numeric,2309.770734,457.540244,1513.836896,2915.993093
+mean_price_yuan_per_kwh,12,12,0,numeric,0.765907,0.056577,0.6912,0.861717
+total_load_kwh,12,12,0,numeric,3377004.579192,261692.218873,3035354.465017,3970920.440117
+total_pv_actual_kwh,12,12,0,numeric,1687603.56764,346933.018671,1126294.650533,2169498.861183

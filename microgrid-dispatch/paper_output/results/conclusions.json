@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "generated_by": "paper_output/code/modeling/run_modeling.py",
+  "generated_at": "2026-09-13T01:51:01",
+  "status": "computed",
+  "items": [
+    {
+      "question_id": "Q1",
+      "conclusion_text": "问题一的最优策略满足负载、储能边界和首末储电量一致约束，全天购电费用由分时购电量复算得到。",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q2",
+      "conclusion_text": "问题二在2月1日至12月31日形成334天计划，0:00仅使用历史负载和光伏预报，实际结算产生紧急购电，并与固定峰谷规则策略完成对照。",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q3",
+      "conclusion_text": "问题三通过A/B/C/D四种策略比较新增预报时刻的边际价值，并输出最终滚动调整策略。",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q4",
+      "conclusion_text": "问题四使用附件4实际波动电价重算问题2和问题3，得到对应的波动电价购电费用和策略差异。",
+      "status": "computed",
+      "evidence_status": "computed"
+    }
+  ]
+}

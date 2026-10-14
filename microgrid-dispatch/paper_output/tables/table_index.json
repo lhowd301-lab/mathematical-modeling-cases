@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "generated_by": "paper_output/code/modeling/run_modeling.py",
+  "generated_at": "2026-09-13T01:51:01",
+  "status": "computed",
+  "tables": [
+    {
+      "question_id": "Q1",
+      "table_id": "table_q1_purchase",
+      "title": "问题一购电策略表",
+      "purpose": "保存144个时段的购电量和费用。",
+      "path": "paper_output/tables/table_q1_purchase.csv",
+      "exists": true,
+      "bytes": 6692,
+      "sha256": "6568b77661612344f4ace3e35ea170b396b121e31900bef22630bc543af341c5",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q1",
+      "table_id": "table_q1_charge_discharge",
+      "title": "问题一储能充放电表",
+      "purpose": "保存六个四小时区间的充放电量。",
+      "path": "paper_output/tables/table_q1_charge_discharge.csv",
+      "exists": true,
+      "bytes": 292,
+      "sha256": "fb0a83f22abe1cc0b50e54642fa88717dec621f4992a2b17ebc54a35734664c2",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q2",
+      "table_id": "table_q2_daily_summary",
+      "title": "问题二全年逐日汇总",
+      "purpose": "保存334天购电、储能和费用。",
+      "path": "paper_output/tables/table_q2_daily_summary.csv",
+      "exists": true,
+      "bytes": 62105,
+      "sha256": "0b9fbf7b55e1515f607ba80e4ac691bdf8685de42eb5f1c65e5a3f995dcfab42",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q2",
+      "table_id": "table_q2_rule_comparison",
+      "title": "问题二线性规划与规则策略对比",
+      "purpose": "比较预报信息下线性规划与固定峰谷规则的全年费用和紧急购电量。",
+      "path": "paper_output/tables/table_q2_rule_comparison.csv",
+      "exists": true,
+      "bytes": 177,
+      "sha256": "82b654a58325d11042ca25c32cc9cc5d974bdef5dc2c411a9cf3717a30111138",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q3",
+      "table_id": "table_q3_forecast_ablation",
+      "title": "问题三预报时点消融实验",
+      "purpose": "比较四种预报时刻策略的总费用和节约。",
+      "path": "paper_output/tables/table_q3_forecast_ablation.csv",
+      "exists": true,
+      "bytes": 428,
+      "sha256": "cb00361c031a4cdbe6ba8d84f88fcf780aa149c956712e6a607874f1b219bd2a",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q4",
+      "table_id": "table_q4_cost_summary",
+      "title": "问题四波动电价费用汇总",
+      "purpose": "比较问题4-2和问题4-3的费用。",
+      "path": "paper_output/tables/table_q4_cost_summary.csv",
+      "exists": true,
+      "bytes": 207,
+      "sha256": "3fae67670cf09d160f4681a44617fb6a8551955ad41025f79435ec66fb77329f",
+      "status": "computed",
+      "evidence_status": "computed"
+    }
+  ]
+}

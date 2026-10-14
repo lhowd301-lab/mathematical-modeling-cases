@@ -1,0 +1,12 @@
+field,sample_rows,non_null_count,missing_count,inferred_type,mean,std,min,max
+interval_id,144,144,0,numeric,72.5,41.568217,1.0,144.0
+attachment_time_label,144,144,0,text,,,,
+result1_interval_label,144,144,0,text,,,,
+result2_interval_label,144,144,0,text,,,,
+slot_start,144,144,0,text,,,,
+slot_end,144,144,0,text,,,,
+price_fixed_yuan_per_kwh,144,144,0,numeric,0.766197,0.313292,0.3713,1.3952
+load_kw,144,144,0,numeric,4626.033671,977.471132,3309.3934,5958.9696
+pv_forecast_kw,144,144,0,numeric,2311.784819,2854.400162,0.0,7612.316
+load_kwh,144,144,0,numeric,771.005612,162.911855,551.565567,993.1616
+pv_forecast_kwh,144,144,0,numeric,385.29747,475.73336,0.0,1268.719333

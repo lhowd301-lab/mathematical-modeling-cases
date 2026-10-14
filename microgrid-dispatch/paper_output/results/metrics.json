@@ -1,0 +1,251 @@
+{
+  "schema_version": "1.0",
+  "generated_by": "paper_output/code/modeling/run_modeling.py",
+  "generated_at": "2026-09-13T01:51:01",
+  "status": "computed",
+  "items": [
+    {
+      "question_id": "Q1",
+      "metric_name": "total_purchase_kwh",
+      "metric_role": "primary",
+      "value": 59482.69899835391,
+      "unit": "kWh",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q1",
+      "metric_name": "total_cost_yuan",
+      "metric_role": "primary",
+      "value": 35126.948589289634,
+      "unit": "yuan",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q1",
+      "metric_name": "terminal_soc_gap_kwh",
+      "metric_role": "primary",
+      "value": 0.0,
+      "unit": "kWh",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q1",
+      "metric_name": "curtailment_kwh",
+      "metric_role": "primary",
+      "value": 0.0,
+      "unit": "kWh",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q2",
+      "metric_name": "output_days",
+      "metric_role": "primary",
+      "value": 334.0,
+      "unit": "days",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q2",
+      "metric_name": "total_purchase_kwh",
+      "metric_role": "primary",
+      "value": 20457823.01506208,
+      "unit": "kWh",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q2",
+      "metric_name": "total_emergency_kwh",
+      "metric_role": "primary",
+      "value": 1719892.2161591565,
+      "unit": "kWh",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q2",
+      "metric_name": "total_cost_yuan",
+      "metric_role": "primary",
+      "value": 19432053.010217562,
+      "unit": "yuan",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q2",
+      "metric_name": "rule_total_cost_yuan",
+      "metric_role": "primary",
+      "value": 21583347.12245431,
+      "unit": "yuan",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q2",
+      "metric_name": "saving_vs_rule_yuan",
+      "metric_role": "primary",
+      "value": 2151294.1122367494,
+      "unit": "yuan",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q2",
+      "metric_name": "saving_vs_rule_percent",
+      "metric_role": "primary",
+      "value": 9.967379480259774,
+      "unit": "percent",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q2",
+      "metric_name": "maximum_daily_terminal_gap_kwh",
+      "metric_role": "primary",
+      "value": 0.0,
+      "unit": "kWh",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q3",
+      "metric_name": "strategy_A_total_cost_yuan",
+      "metric_role": "primary",
+      "value": 19432053.010217562,
+      "unit": "yuan",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q3",
+      "metric_name": "strategy_B_total_cost_yuan",
+      "metric_role": "primary",
+      "value": 19458388.448500138,
+      "unit": "yuan",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q3",
+      "metric_name": "strategy_C_total_cost_yuan",
+      "metric_role": "primary",
+      "value": 19376187.088645756,
+      "unit": "yuan",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q3",
+      "metric_name": "strategy_D_total_cost_yuan",
+      "metric_role": "primary",
+      "value": 19376192.358228467,
+      "unit": "yuan",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q3",
+      "metric_name": "strategy_C_saving_vs_A_yuan",
+      "metric_role": "primary",
+      "value": 55865.92157180607,
+      "unit": "yuan",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q3",
+      "metric_name": "total_emergency_kwh",
+      "metric_role": "primary",
+      "value": 1617253.4945396604,
+      "unit": "kWh",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q4",
+      "metric_name": "q4_2_total_cost_yuan",
+      "metric_role": "primary",
+      "value": 20162596.67524488,
+      "unit": "yuan",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q4",
+      "metric_name": "q4_3_total_cost_yuan",
+      "metric_role": "primary",
+      "value": 20070799.54899107,
+      "unit": "yuan",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q4",
+      "metric_name": "q4_3_minus_q4_2_yuan",
+      "metric_role": "primary",
+      "value": -91797.12625380978,
+      "unit": "yuan",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q4",
+      "metric_name": "q4_3_saving_vs_q4_2_yuan",
+      "metric_role": "primary",
+      "value": 91797.12625380978,
+      "unit": "yuan",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q4",
+      "metric_name": "mean_cost_yuan",
+      "metric_role": "primary",
+      "value": 16128017.953095341,
+      "unit": "yuan",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q4",
+      "metric_name": "std_cost_yuan",
+      "metric_role": "primary",
+      "value": 100238.62738007121,
+      "unit": "yuan",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q4",
+      "metric_name": "var_95_yuan",
+      "metric_role": "primary",
+      "value": 16289949.718623593,
+      "unit": "yuan",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q4",
+      "metric_name": "cvar_95_yuan",
+      "metric_role": "primary",
+      "value": 16340343.22214834,
+      "unit": "yuan",
+      "status": "computed",
+      "evidence_status": "computed"
+    },
+    {
+      "question_id": "Q4",
+      "metric_name": "worst_cost_yuan",
+      "metric_role": "primary",
+      "value": 16388931.741757713,
+      "unit": "yuan",
+      "status": "computed",
+      "evidence_status": "computed"
+    }
+  ]
+}

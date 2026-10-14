@@ -1,0 +1,4 @@
+table_title,question_id,main_model,evidence_status,note
+预测结果表,Q3,四预报时刻滚动时域LP；推荐策略C,computed,0:00与问题二使用同一信息集；6:00、12:00和18:00仅更新尚未执行时段。
+误差指标表,Q3,四预报时刻滚动时域LP；推荐策略C,computed,比较四种信息集的总费用、调整相关费用和紧急购电费用。
+残差摘要表,Q3,四预报时刻滚动时域LP；推荐策略C,computed,日末SOC回到当日初值，不锚定0:00计划对应的日末值。

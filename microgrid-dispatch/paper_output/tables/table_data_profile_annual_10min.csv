@@ -1,0 +1,16 @@
+field,sample_rows,non_null_count,missing_count,inferred_type,mean,std,min,max
+date,500,500,0,text,,,,
+day_index,500,500,0,numeric,2.272,1.022749,1.0,4.0
+interval_id,500,500,0,numeric,67.332,41.412435,1.0,144.0
+attachment_time_label,500,500,0,text,,,,
+result_template_interval_label,500,500,0,text,,,,
+slot_start,500,500,0,text,,,,
+slot_end,500,500,0,text,,,,
+target_hour_index,500,500,0,numeric,10.806,6.906255,0.0,24.0
+load_kw,500,500,0,numeric,4520.295874,1422.548119,2453.7519,7519.6199
+pv_actual_kw,500,500,0,numeric,1454.832609,2089.451616,0.0,6232.0875
+price_actual_yuan_per_kwh,500,500,0,numeric,0.83397,0.371566,0.2766,1.6098
+price_fixed_yuan_per_kwh,500,500,0,numeric,0.751975,0.308863,0.3713,1.3952
+load_kwh,500,500,0,numeric,753.382646,237.091353,408.95865,1253.269983
+pv_actual_kwh,500,500,0,numeric,242.472101,348.241936,0.0,1038.68125
+is_official_output_period,500,500,0,text,,,,

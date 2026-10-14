@@ -1,0 +1,4 @@
+table_title,question_id,main_model,evidence_status,note
+最优方案表,Q4,附件4实际电价确定性重算+日内价格残差块Bootstrap风险评价,computed,正式费用来自题目给定价格路径；VaR和CVaR用于评价既定调度的尾部风险。
+约束满足情况表,Q4,附件4实际电价确定性重算+日内价格残差块Bootstrap风险评价,computed,问题4-2和问题4-3均沿用问题二的负载预测、光伏预报与实际结算口径。
+方案对比表,Q4,问题4-2逐日计划+问题4-3推荐策略C,computed,在相同信息集下比较逐日计划与滚动调整的净费用。

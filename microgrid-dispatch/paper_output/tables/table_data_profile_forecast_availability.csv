@@ -1,0 +1,4 @@
+field,sample_rows,non_null_count,missing_count,inferred_type,mean,std,min,max
+forecast_origin_hour,13,13,0,numeric,9.818182,6.40764,0.0,18.0
+forecast_status,13,13,0,text,,,,
+row_count,13,13,0,numeric,20215.384615,18689.209707,5.0,52555.0
